@@ -18,6 +18,7 @@ crash.log
 # are not checked in
 override.tf
 override.tf.json
+_providers.tf
 *_override.tf
 *_override.tf.json
 
@@ -27,3 +28,4 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+**/.key/*
